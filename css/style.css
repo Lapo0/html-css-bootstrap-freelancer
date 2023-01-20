@@ -22,11 +22,16 @@ a {
 :root{
     --darkblue: #2C3E50;
     --blusection: #1ABC9C;
+    --footer: #3A546D;
 }
 
 header,
-footer{
+section.footer{
     background-color: var(--darkblue);
+}
+
+footer{
+    background-color: var(--footer);
 }
 
 section.blue{
