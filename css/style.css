@@ -52,8 +52,42 @@ header ul{
     padding: 0;
 }
 
+.hamburger{
+    padding: 5px 10px;
+    border: 2px solid white;
+    display: none;
+}
+
 
 
 /***************************
 DEBUG
 ***************************/
+
+
+/***************************
+media query
+***************************/
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (max-width: 576px) { ... }
+
+/*Medium devices (tablets, 768px and up)*/
+@media (max-width: 768px) { ... }
+
+/*Large devices (desktops, 992px and up)*/
+@media (max-width: 992px) { 
+    header .cube ul li:not(.hamburger){
+        display: none;
+    }
+
+    .hamburger{
+        display: block;
+    }
+ }
+
+/*X-Large devices (large desktops, 1200px and up)*/
+@media (max-width: 1200px) { ... }
+
+/*XX-Large devices (larger desktops, 1400px and up)*/
+@media (max-width: 1400px) { ... }
