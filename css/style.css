@@ -17,6 +17,7 @@ li,
 a {
     list-style: none;
     text-decoration: none;
+    color: white;
 }
 
 :root{
@@ -45,6 +46,10 @@ section.blue{
 
 .card{
     background-color: red;
+}
+
+header ul{
+    padding: 0;
 }
 
 
