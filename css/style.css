@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Krona One', sans-serif;
+}
+
+img{
+    width: 100%;
+}
+
+ul,
+li,
+a {
+    list-style: none;
+    text-decoration: none;
+}
+
+:root{
+    --darkblue: #2C3E50;
+    --blusection: #1ABC9C;
+}
+
+header,
+footer{
+    background-color: var(--darkblue);
+    color: white;
+}
+
+section.blue{
+    background-color: var(--blusection);
+}
+
+.my__container{
+    max-width: 460px;
+    margin: 0 auto;
+}
+
+
+
+/***************************
+DEBUG
+***************************/
+
+.debug section.blue{
+    height: 590px;
+}
