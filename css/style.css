@@ -44,10 +44,6 @@ section.blue{
     margin: 0 auto;
 }
 
-.card{
-    background-color: red;
-}
-
 header ul{
     padding: 0;
 }
@@ -56,6 +52,17 @@ header ul{
     padding: 5px 10px;
     border: 2px solid white;
     display: none;
+}
+
+.circle-img{
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.card{
+    border-radius: 25px;
 }
 
 
