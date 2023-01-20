@@ -39,12 +39,12 @@ section.blue{
     margin: 0 auto;
 }
 
+.card{
+    background-color: red;
+}
+
 
 
 /***************************
 DEBUG
 ***************************/
-
-.debug section.blue{
-    height: 590px;
-}
