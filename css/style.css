@@ -27,31 +27,16 @@ a {
 }
 
 header,
-section.footer{
+section.copyright{
     background-color: var(--darkblue);
 }
 
-footer{
+footer .info{
     background-color: var(--footer);
 }
 
 section.blue{
     background-color: var(--blusection);
-}
-
-.my__container{
-    max-width: 460px;
-    margin: 0 auto;
-}
-
-header ul{
-    padding: 0;
-}
-
-.hamburger{
-    padding: 5px 10px;
-    border: 2px solid white;
-    display: none;
 }
 
 .circle-img{
@@ -65,6 +50,85 @@ header ul{
     border-radius: 25px;
 }
 
+/***************************
+header
+***************************/
+
+header ul{
+    margin-bottom: 0;
+}
+
+header h3{
+    font-size: calc(1.2rem + .1vw);
+    margin-bottom: 0;
+}
+
+.hamburger{
+    padding: 4px 12px;
+    border: 2px solid white;
+    display: none;
+    margin-right: 12px;
+}
+
+/***************************
+main
+***************************/
+.titol__text .bar{
+    height: 4px;
+    border-radius: 999px;
+}
+
+.titol__text h1{
+    font-size: 50px;
+}
+
+.titol__text h4{
+    font-size: calc(1.2rem + .1vw);
+}
+
+i.fa-star{
+    font-size: 25px;
+}
+
+.download button{
+    border-radius: 10px;
+    background-color: var(--blusection);
+    border: 1px solid white;
+    flex-shrink: 1;
+    flex-grow: 0;
+}
+
+input{
+    line-height: 60px;
+    color: black;
+    border: 0;
+    border-bottom: 2px solid rgb(164, 164, 164);
+}
+
+textarea{
+    border: 0;
+    border-bottom: 2px solid rgb(164, 164, 164);
+}
+
+.send button{
+    border-radius: 10px;
+    background-color: var(--blusection);
+    border: 1px solid white;
+}
+
+/***************************
+footer
+***************************/
+
+footer .social i{
+    width: 50px;
+    border: 1px solid white;
+    border-radius: 999px;
+}
+
+footer a{
+    color: var(--blusection);
+}
 
 
 /***************************
@@ -91,10 +155,22 @@ media query
     .hamburger{
         display: block;
     }
+
+    .titol__text h1{
+        font-size: 30px;
+    }
+    
+    .titol__text h4{
+        font-size: calc(1rem + .1vw);
+    }
  }
 
 /*X-Large devices (large desktops, 1200px and up)*/
-@media (max-width: 1200px) { ... }
+@media (max-width: 1200px) { 
+
+}
 
 /*XX-Large devices (larger desktops, 1400px and up)*/
-@media (max-width: 1400px) { ... }
+@media (max-width: 1400px) {
+
+ }
