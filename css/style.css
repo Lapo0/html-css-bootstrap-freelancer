@@ -130,6 +130,10 @@ footer a{
     color: var(--blusection);
 }
 
+::placeholder{
+    color: rgb(72, 72, 72);
+}
+
 
 /***************************
 DEBUG
