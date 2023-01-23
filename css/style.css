@@ -70,6 +70,14 @@ header h3{
     margin-right: 12px;
 }
 
+.navbar-toggler{
+    border-color: white;
+}
+
+.navbar-toggler-icon {
+    filter: invert(1);
+}
+
 /***************************
 main
 ***************************/
